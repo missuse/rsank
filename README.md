@@ -7,3 +7,10 @@ Shiny app which runs a rpart model on an uploaded data set and provides visualiz
 To run it:
 
 `shiny::runGitHub("missuse/rsank")`
+
+required packages:  
+
+`library(plotly)`  
+`library(shiny)`  
+`library(rpart)`  
+`library(rpart.utils)`  
