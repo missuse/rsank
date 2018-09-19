@@ -102,7 +102,6 @@ server <- function(input, output, session) {
     source <- source - 1
     target <- target - 1
     
-    
     p <- plot_ly(
       type = "sankey",
       orientation = "h",
